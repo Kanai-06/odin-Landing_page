@@ -1,0 +1,166 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	box-sizing: border-box;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+.size {
+	width: 770px;
+	margin: 0 auto;
+}
+.top, .bottom{
+	background-color: #1F2937;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2px 0;
+}
+.logo {
+	font-size: 24px;
+	font-weight: 700;
+	color: #F9FAF8;
+}
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+	list-style: none;
+}
+.links, .content p {
+	font-size: 18px;
+	color: #E5E7EB
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.content h1 {
+	font-size: 48px;
+	font-weight: 800;
+	color: #F9FAF8;
+	margin: 0;
+}
+.content button {
+	padding: 3px 25px;
+	border-radius: 6px;
+	font-weight: 700;
+	color: #E5E7EB;
+	background-color: #3882F6;
+	border: none;
+}
+.content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 80px 0;
+}
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.mid1 {
+	text-align: center;
+}
+.mid1 h2 {
+	font-size: 36px;
+	font-weight: 800;
+	color: #1F2937;
+	margin: 40px 0;
+}
+.set {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+	margin-bottom: 80px;
+}
+.set div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.box {
+	width: 130px;
+	height: 130px;
+	border: 3px solid #3882F6;
+	border-radius: 15px;
+}
+.set p {
+	width: 130px;
+	font-size: small;
+	color: #54575e;
+}
+.mid2 {
+	background-color: #E5E7EB;
+}
+.mid2 .size {
+	padding: 80px 160px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 5px;
+}
+.mid2 p {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	color: #1F2937;
+}
+.s-size {
+	max-width: 670px;
+}
+.source {
+	margin-left: auto;
+	margin-right: 20px;
+	color: #313336;
+	font-size: 20px;
+	font-weight: 700;
+}
+.mid3 .size {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	background-color: #3882F6;
+	border-radius: 6px;
+	padding: 35px 0;
+}
+.mid3 .s-size {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+.mid3 h3 {
+	color: #F9FAF8;
+	margin: 0;
+}
+.mid3 p {
+	font-size: small;
+	color: #E5E7EB;
+	margin-bottom: 0;
+}
+.mid3 button {
+	padding: 3px 25px;
+	border-radius: 6px;
+	font-weight: 700;
+	color: #E5E7EB;
+	background-color: #3882F6;
+	border: 1.5px solid #E5E7EB;
+}
+.bottom {
+	padding: 35px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bottom div {
+	font-size: 18px;
+	color: #E5E7EB
+}
